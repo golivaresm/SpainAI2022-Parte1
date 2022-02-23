@@ -31,9 +31,9 @@ def user_interface_2():
     text = """
            # Te recomendamos este modelo: 
            
-           deepset/roberta-base-squad2
+           nlp-en-es/roberta-base-bne-finetuned-sqac
 
-           Más información aquí: https://huggingface.co/deepset/roberta-base-squad2
+           Más información aquí: https://huggingface.co/nlp-en-es/roberta-base-bne-finetuned-sqac
            """
     st.write(text)
 
