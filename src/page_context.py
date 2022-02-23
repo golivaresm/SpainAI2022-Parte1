@@ -23,10 +23,11 @@ def context():
     text = """
            # Texto de ejemplo:
 
-           In Brown Disp. Entertainment we pride ourselves on having a competitive remuneration model that meets the highest market standards. 
-           That is why in addition to the salary of the payroll, we have a wide remuneration package with food aid such as restaurant tickets, reduced hours both in the summer months (July and August) and on Fridays. 
-           We also have social benefits such as help with internet connection, discounts at the gym or optional medical insurance. 
-           Likewise, in order to promote training and constant learning, all employees have a budget of € 1,200 per year to dedicate to courses and conferences.
+          Allende inició sus estudios primarios en la sección preparatoria del Liceo de Tacna, 
+          dirigido por el profesor Julio Angulo. Se mostraba como un niño travieso y energético según cuenta Zoila Rosa Ovalle, 
+          la mamá Rosa, la niñera que cuidó de Allende en la niñez y adolescencia y que alcanzó a verlo convertido en presidente. 
+          Ella lo apodaría Chichito, pues el pequeño Allende no podía pronunciar su diminutivo correspondiente, 
+          Salvadorcito, de ahí el origen del apodo Chicho Allende.
            """
     st.write(text)
 
