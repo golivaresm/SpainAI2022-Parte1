@@ -29,9 +29,9 @@ def questions():
     text = """
            # Preguntas de ejemplo:
 
-           * When is the reduced day?
-           * What is the training budget?
-           * What are the social benefits?
+           * ¿Cómo se llamaba su madre?
+           * ¿Cuál era su apodo?
+           * ¿Dónde estudió?
            """
 
     st.write(text)
