@@ -14,14 +14,12 @@ from page_your_turn import your_turn
 def main():
 
     pages_mapper = {
-                        '1. Portada': front,
-                        '2. ¿Qué vamos a hacer?': task,
-                        '3. Descargar un modelo': download_model,
-                        '4. Contexto': context,
-                        '5. Preguntas': questions,
-                        '6. Resultados': results,
-                        '7. Chuleta': cheatsheet,
-                        '8. Os toca': your_turn
+
+                        '1. ¿Qué vamos a hacer?': task,
+                        '2. Descargar un modelo': download_model,
+                        '3. Contexto': context,
+                        '4. Preguntas': questions,
+                        '5. Resultados': results,  
                     }
 
     ls_page_name = pages_mapper.keys()
