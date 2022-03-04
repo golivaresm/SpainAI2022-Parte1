@@ -8,7 +8,7 @@ def sidebar(ls_page_name):
     edition = "TAETT"
     title = "# QArch_basado en codigo Spain AI"
 
-    st.sidebar.image(image_spainai_url)
+    st.sidebar.image(image_taett_url)
     st.sidebar.write(edition)
     st.sidebar.write(title)
     page_name = st.sidebar.selectbox("", ls_page_name)
