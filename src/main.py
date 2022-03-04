@@ -1,14 +1,12 @@
 import streamlit as st
 
 from page_sidebar import sidebar
-from page_front import front
 from page_task import task
 from page_download_model import download_model
 from page_context import context
 from page_questions import questions
 from page_results import results
-from page_cheatsheet import cheatsheet
-from page_your_turn import your_turn
+
 
 
 def main():
